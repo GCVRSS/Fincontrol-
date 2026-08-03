@@ -1,5 +1,11 @@
-venv/
-.env
-__pycache__/
-*.pyc
-db.sqlite3
+# Backend
+fincontrol-backend/venv/
+fincontrol-backend/.env
+fincontrol-backend/__pycache__/
+fincontrol-backend/**/__pycache__/
+fincontrol-backend/*.pyc
+fincontrol-backend/db.sqlite3
+
+# Frontend
+fincontrol-frontend/node_modules/
+fincontrol-frontend/dist/
